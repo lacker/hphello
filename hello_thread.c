@@ -2,6 +2,7 @@
 
 static void *run(hashpipe_thread_args_t * args) {
   printf("hello world!\n");
+  return THREAD_OK;
 }
 
 static hashpipe_thread_desc_t hello_thread = {
