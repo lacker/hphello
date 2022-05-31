@@ -2,4 +2,4 @@
 
 HP=~/hashpipe/src
 
-gcc -Wall -c hello_thread.c -I$HP -o build/hphello
+gcc -Wall hello_thread.c -I$HP -shared -o build/hello_thread.so
